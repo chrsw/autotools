@@ -11,3 +11,10 @@ $ aclocal   # generate an autotools m4 environment
 $ autoconf  # generate configure from configure.ac
 
 $ automake --add-missing # generate a Makefile from Makefile.am
+
+Now the directory contains all the files needed for the user to run
+$ ./configure && make && make install
+- or -
+$ ./configure
+$ make
+$ sudo make install
