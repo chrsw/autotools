@@ -18,3 +18,7 @@ $ ./configure && make && make install
 $ ./configure
 $ make
 $ sudo make install
+
+To build a distribution package, the Makefile has a target for that:
+$ ./configure
+$ make dist
